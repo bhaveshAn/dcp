@@ -25,3 +25,7 @@ def product_array(arr):
         prod[i] = left[i] * right[i]
 
     return prod
+
+arr = [int(x) for x in input().strip().split()]
+
+print(product_array(arr))
